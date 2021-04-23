@@ -1,6 +1,6 @@
 # LSTM Stock Predictor
 
-![deep-learning.jpg](Images/deep-learning.jpg)
+
 
 Due to the volatility of cryptocurrency speculation, investors will often try to incorporate sentiment from social media and news articles to help guide their trading strategies. One such indicator is the [Crypto Fear and Greed Index (FNG)](https://alternative.me/crypto/fear-and-greed-index/) which attempts to use a variety of data sources to produce a daily FNG value for cryptocurrency. You have been asked to help build and evaluate deep learning models using both the FNG values and simple closing prices to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.
 
@@ -22,15 +22,15 @@ You will need to:
 
 - - -
 
-## Instructions
+## Steps
 
 ### Prepare the data for training and testing
 
-Use the starter code as a guide to create a Jupyter Notebook for each RNN. The starter code contains a function to create the window of time for the data in each dataset.
+ 
 
-For the Fear and Greed model, you will use the FNG values to try and predict the closing price. A function is provided in the notebook to help with this.
+#### For the Fear and Greed model, use the FNG values to try and predict the closing price.
 
-For the closing price model, you will use previous closing prices to try and predict the next closing price. A function is provided in the notebook to help with this.
+#### For the closing price model, use previous closing prices to try and predict the next closing price. 
 
 Each model will need to use 70% of the data for training and 30% of the data for testing.
 
@@ -40,7 +40,7 @@ Finally, reshape the X_train and X_test values to fit the model's requirement of
 
 ### Build and train custom LSTM RNNs
 
-In each Jupyter Notebook, create the same custom LSTM RNN architecture. In one notebook, you will fit the data using the FNG values. In the second notebook, you will fit the data using only closing prices.
+For each Jupyter Notebook, create the same custom LSTM RNN architecture. In one notebook, you will fit the data using the FNG values. In the second notebook, you will fit the data using only closing prices.
 
 Use the same parameters and training steps for each model. This is necessary to compare each model accurately.
 
@@ -48,7 +48,7 @@ Use the same parameters and training steps for each model. This is necessary to 
 
 Finally, use the testing data to evaluate each model and compare the performance.
 
-Use the above to answer the following:
+## Conclusion:
 
 > Which model has a lower loss?
 >
@@ -74,16 +74,4 @@ Experiment with the model architecture and parameters to see which provides the 
 
 For training, use at least 10 estimators for both models.
 
-- - -
 
-### Submission
-
-* Create Jupyter Notebooks for the homework and host the notebooks on GitHub.
-
-* Include a Markdown that summarizes your homework and include this report in your GitHub repository.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
